@@ -45,4 +45,5 @@ def main():
     search_and_print(args.filename, args.search_string, args.num_lines)
 
 # Call the main function
-main()
+if __name__ == "__main__":
+    main()
